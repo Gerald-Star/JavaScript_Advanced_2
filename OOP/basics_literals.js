@@ -3,7 +3,7 @@
 
 // Object Literals
 
-const book1 = {
+const book = {
   title: "Book one",
   author: "Jones Herr",
   year: "2013",
@@ -13,12 +13,12 @@ const book1 = {
 
 };
 
-console.log(book1.title);
-console.log(book1.getSummary());
+console.log(book.title);
+console.log(book.getSummary());
 
 
-const book2 = {
-  title: "Common Sense",
+const books = {
+  title: "Common Sense and The Reasons",
   author: "Jones Herr",
   year: "2016",
   getSummary: function () {
@@ -28,6 +28,6 @@ const book2 = {
 };
 
 // To get values and keys of an object
-console.log(Object.values(book2));
-console.log(Object.keys(book2));
+console.log(Object.values(books));
+console.log(Object.keys(books));
 
